@@ -16,5 +16,11 @@ class ViewController: UIViewController {
     }
 
 
+    @IBAction func languageButtonPressd(_ sender: UIButton) {
+        if sender.tag == 1 {
+             performSegue(withIdentifier: "goToSelectedLanguage", sender: self)
+            print("Perfomed")
+        } 
+    }
 }
 
