@@ -211,6 +211,8 @@
                             <outlet property="delegate" destination="6lc-cj-ap7" id="lxf-ba-jbb"/>
                         </connections>
                     </tableView>
+                    <toolbarItems/>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
                         <segue destination="JVg-yD-Ixv" kind="show" identifier="goToSelectedContent" id="DnC-Eg-Hea"/>
                     </connections>
@@ -228,10 +230,10 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="contentItemsCell" id="8BY-Wj-hyS">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="jmV-sX-3Xb">
                                 <rect key="frame" x="0.0" y="28" width="414" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
-                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="8BY-Wj-hyS" id="woF-pf-tFB">
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="jmV-sX-3Xb" id="mMY-sF-8zW">
                                     <rect key="frame" x="0.0" y="0.0" width="414" height="43.666666666666664"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableViewCellContentView>
@@ -242,6 +244,8 @@
                             <outlet property="delegate" destination="JVg-yD-Ixv" id="QuD-cV-uHV"/>
                         </connections>
                     </tableView>
+                    <toolbarItems/>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ZaC-eZ-jDf" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -250,6 +254,7 @@
         <!--Navigation Controller-->
         <scene sceneID="M24-zB-DLU">
             <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="DbC-4Z-OWD" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="J8L-Tg-gbq" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" largeTitles="YES" id="npS-7Y-UHE">
@@ -270,12 +275,12 @@
                         <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="reH-L0-cVU"/>
                     </connections>
                 </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="DbC-4Z-OWD" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="104.8" y="-670.61469265367316"/>
+            <point key="canvasLocation" x="104" y="-664"/>
         </scene>
     </scenes>
     <resources>
         <image name="background-image" width="6016" height="4016"/>
     </resources>
+    <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
 </document>

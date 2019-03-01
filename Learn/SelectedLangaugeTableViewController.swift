@@ -7,9 +7,14 @@
 //
 
 import UIKit
+import RealmSwift
 
 class SelectedLangaugeTableViewController: UITableViewController {
-    let booksArray = ["Developing Chinese 1","Developing Chinese 2","Developing Chinese 3","Developing Chinese 4","Developing Chinese 5"]
+    let realm = try! Realm()
+    
+    var  booksArray = [SelectedLanguage]()
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
